@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public   class Product {
     private int id;
     private int quantity;
@@ -53,4 +55,12 @@ public   class Product {
                 System.out.println("out of stock");
             }
     }
+}
+
+class Cart{
+    private ArrayList<Product> products;
+    private ArrayList<Integer> quantities;
+    private double totalAmount;
+
+    
 }
